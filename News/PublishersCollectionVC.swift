@@ -16,7 +16,7 @@ class PublishersCollectionVC: UICollectionViewController, PublisherCellDelegate 
     @IBOutlet weak var addButton: UIBarButtonItem!
     
     // instantiate data source
-    let publishers = Publishers()
+    let publishers = Publishers() 
     
     // Variables for Cell dimensions
     private let leftAndRightPaddings: CGFloat = 32.0 // there's 4 horiz. spaces between images, so 8pt * 4 = 32.0
